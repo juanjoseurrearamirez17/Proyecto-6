@@ -1,0 +1,233 @@
+*{
+	padding: 0px;
+	margin: 0 auto;
+	box-sizing: border-box;
+	font-family: "Comic Neue", cursive;
+  font-weight: 400;
+ 	font-style: normal;
+}
+
+header{
+	margin-right: 50px;
+	background-color: rgba(25, 99, 51, 0.8);
+	height: 60px;
+	position: fixed;
+	width: 100%;
+}
+
+nav ul{
+	display: flex;
+	float: left;
+}
+
+nav ul li{
+	margin-top: 15px;
+	margin-left: 190px;
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+#inicio{
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url(../img/x.jpg);
+	height: 200vh;
+	background-attachment: fixed;
+}
+
+.container{
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+	height: 200vh;
+	color: #fff;
+
+}
+
+#acerca-de{
+	background-image: url(../img/alt.jpg);
+	height: 200vh;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.caja{
+	width: 400px;
+	height: 500px;
+	background-color: rgba(27, 217, 227, 0.51);
+	border-radius: 20px;
+	color: #000;
+	display: flex;
+	flex-direction: column;
+	gap: 2.5em;
+	margin-left: 10px;
+}
+
+.cajas{
+	display: flex;
+}
+.imge{
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 5px;
+}
+
+.imge img{
+	width: 50%;
+	object-fit: cover;
+	border-radius: 50%;
+}
+
+button{
+	width: 60%;
+	padding: 10px;
+	font-size: 1.3rem;
+	text-transform: uppercase;
+	border-radius: 10px;
+}
+
+.img1{
+	float: left;
+}
+
+.img2{
+	float: right;
+}
+
+#servicios{
+	background-image: url(../img/w.webp);
+	height: 200vh;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.cajas2{
+	display: flex;
+}
+
+.caja2{
+	width: 400px;
+	height: 500px;
+	background-color: rgba(0, 0, 0, 0.51);
+	border-radius: 20px;
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+	gap: 2.5em;
+	margin-left: 10px;
+}
+
+.cajas2 button{
+	background-color: #92E996;
+}
+
+.precio{
+		box-shadow: 10px 5px 20px #F96051;
+		text-transform: uppercase;
+}
+#contacto{
+	background-image: url(../img/p.webp);
+	height: 200vh;
+	background-attachment: fixed;
+}
+
+.container-contact{
+	text-align: center;
+	width: 500px;
+	height: 500px;
+	border-radius: 6px;
+	border: solid 1px white;
+	background-color: rgba(0, 0, 0, 0.4);
+	backdrop-filter: blur(2px);
+	display: flex;
+	flex-direction: column;
+}
+
+form{
+	width: 80%;
+	margin: 20px auto;
+
+}
+form input{
+	width: 80%;
+	background-color: rgba(58, 140, 234, 0.4);
+	color: #fff;
+	padding: 5px 2px;
+}
+
+textarea{
+	background-color: rgba(58, 140, 234, 0.4);
+	color: #fff;
+	padding: 5px 2px;
+	border-radius: 5px;
+	resize: none;
+}
+
+form input[type="submit"]{
+	width: 100%;
+	color: #fff;
+	background-color: skyblue;
+	padding: 5px auto;
+}
+
+form input[type="submit"]:hover{
+	cursor: pointer;
+	background-color: darkblue;
+}
+
+.footer{
+	margin-top: 300px;
+}
+.ocho{
+	margin-left: 330px;
+}
+/*media queries*/
+
+@media (max-width: 400px){
+	header ul{
+		flex-direction: column;
+	}
+	.caja{
+		width: 120px;
+		height: 400px;
+	}
+	.caja h3{
+		margin-top: -10px;
+		width: 50px;
+	}
+	.caja p{
+		margin-top: 5px;
+		width: 50px;
+	}
+	.caja button{
+		width: 100px;
+		height: 70px;
+	}
+	.cajas2{
+		margin-left: 10px;
+		width: 400px;
+		height: 400px;
+	}
+	.cajas2 button{
+       width: 100px;
+       height: 70px;
+	}
+	.container-contact{
+		width: 300px;
+		margin-left: 10px;
+	}
+	textarea{
+		width: 250px;
+	}
+	.ocho{
+		margin-left: -100px;
+	}
+}
