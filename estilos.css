@@ -34,7 +34,7 @@ a{
 #inicio{
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-image: url(../img/x.jpg);
+	background-image: url("x.jpg");
 	height: 200vh;
 	background-attachment: fixed;
 }
@@ -51,7 +51,7 @@ a{
 }
 
 #acerca-de{
-	background-image: url(../img/alt.jpg);
+	background-image: url("alt.jpg");
 	height: 200vh;
 	background-size: cover;
 	background-attachment: fixed;
@@ -103,7 +103,7 @@ button{
 }
 
 #servicios{
-	background-image: url(../img/w.webp);
+	background-image: url("w.webp");
 	height: 200vh;
 	background-size: cover;
 	background-attachment: fixed;
@@ -134,7 +134,7 @@ button{
 		text-transform: uppercase;
 }
 #contacto{
-	background-image: url(../img/p.webp);
+	background-image: url("p.webp");
 	height: 200vh;
 	background-attachment: fixed;
 }
